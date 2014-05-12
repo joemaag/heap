@@ -1,12 +1,10 @@
 /*************************
 
-Joseph Maag
+Joe Maag
 
-COP 3503 - 0001
-
-Assignment 5: Heaps
-
-4/18/14
+Heaps
+A list of heap operations are read in from a text file, and the operations are performed on a heap structure. 
+Operations include adding, removing, and sorting numbers in a heap.
 
 ***************************/
 
@@ -33,7 +31,7 @@ public class Heap{
 	static void print(ArrayList<Integer> values){
 
 		if(values.size() == 1){
-			//size == 1 means the heap is empty. That one element in the array is the empty index 0
+			//size == 1 means the heap is empty. That one element in the array is the first empty index 0
 			System.out.printf("(empty)\n");
 			return;
 		}
@@ -169,6 +167,6 @@ public class Heap{
 		}
 
 	}
-	
+
 
 }
